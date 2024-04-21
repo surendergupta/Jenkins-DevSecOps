@@ -16,6 +16,7 @@ sudo apt-get update
 
 ```
 sudo apt-get install docker.io -y
+sudo apt-get install docker-compose -y
 sudo usermod -aG docker $USER
 sudo usermod -aG docker jenkins
 sudo chmod 666 /var/run/docker.sock
@@ -205,3 +206,8 @@ pipeline{
     }
 }
 ```
+
+
+![alt text](image.png)
+
+- Add Port 5173 and 5000 in Security Group
